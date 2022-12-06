@@ -8,6 +8,10 @@ name: run main.py
 on:
   push:
 
+  schedule:
+    # script to run every minute?
+    -cron: '* * * * *'
+
 
 jobs:
   build:
