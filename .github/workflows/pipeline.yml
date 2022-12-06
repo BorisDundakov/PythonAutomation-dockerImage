@@ -1,9 +1,9 @@
 name: run main.py
 #/media/boris/0E471A3B0E471A3B/F/Projects archive - for Github/Python/PythonAutomation/main.py
-on:
-  schedule:
-    # schedule the script to run every 2 hours
-    - cron: "* * * * *" python ~home/runner/work/PythonAutomation/main.py
+#on:
+#  schedule:
+#    # schedule the script to run every 2 hours
+#    - cron: "* * * * *" python ~home/runner/work/PythonAutomation/main.py
 
 jobs:
   build:
