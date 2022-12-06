@@ -42,5 +42,6 @@ jobs:
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
-          #github_token: ${{ secrets.GITHUB_TOKEN }}
+          # if this works it is done manually, I haven't declared the variable GITHUB_TOKEN!
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
