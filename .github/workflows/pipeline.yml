@@ -3,8 +3,8 @@ name: run main.py
 on:
   schedule:
     # schedule the script to run every 2 hours
-     - cron: "* * * * *" 
-     
+     - cron: "* * * * *" python ~home/runner/work/PythonAutomation/main.py
+
 jobs:
   build:
     runs-on: ubuntu-latest
