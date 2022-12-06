@@ -5,6 +5,10 @@ name: run main.py
 #    # schedule the script to run every 2 hours
 #    - cron: "* * * * *" python ~home/runner/work/PythonAutomation/main.py
 
+on:
+  push:
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
