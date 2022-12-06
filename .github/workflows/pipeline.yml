@@ -9,8 +9,9 @@ on:
   push:
 
   schedule:
+    - cron: '* * * * *'
     # script to run every minute?
-    -cron: '* * * * *'
+    #-cron: '* * * * *'
 
 
 jobs:
