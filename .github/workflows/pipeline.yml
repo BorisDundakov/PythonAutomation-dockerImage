@@ -3,7 +3,7 @@ name: run main.py
 on:
   schedule:
     # schedule the script to run every 2 hours
-     - cron: "* * * * *" python ~main.py
+     - cron: "* * * * *" python ~/media/boris/0E471A3B0E471A3B/F/Projects archive - for Github/Python/PythonAutomation/main.py
      
 jobs:
   build:
