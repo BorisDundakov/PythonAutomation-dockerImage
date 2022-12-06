@@ -9,9 +9,7 @@ on:
   push:
 
   schedule:
-    - cron: '* * * * *'
-    # script to run every minute? Actions schedule run at most every 5 minutes.
-    #-cron: '* * * * *'
+    - cron: '* * * * *'     # script to run every minute? Actions schedule run at most every 5 minutes.
 
 
 jobs:
