@@ -1,5 +1,4 @@
 name: run main.py
-#/media/boris/0E471A3B0E471A3B/F/Projects archive - for Github/Python/PythonAutomation/main.py
 #on:
 #  schedule:
 #    # schedule the script to run every 2 hours
@@ -7,7 +6,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '* * * * *'     # script to run every minute? Actions schedule run at most every 5 minutes.
+    - cron: '* * * * *'     # script to run every minute? Actions schedule run at most every 8 minutes roughly.
 
 
 jobs:
